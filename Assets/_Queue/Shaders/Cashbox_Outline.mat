@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cashbox_Outline
+  m_Shader: {fileID: -6465566751694194690, guid: 34b835c2e4c46874980f906308e4215f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_550e5fb49d8d46ed8ee62ff7457cbefc: 6
+    - Vector1_7e6ba646726e4ed2be55c46c4d77c740: 3
+    - Vector1_a64ae97f30534855952d4b93a9e5668a: 5.44
+    - Vector1_e25471f084c548ca8b4a437b9816a9ce: 0
+    m_Colors:
+    - Color_133e56a9b4ba4063af4a89a0eb4c8981: {r: 0.22745098, g: 0.56078434, b: 0.8666667, a: 1}
+  m_BuildTextureStacks: []

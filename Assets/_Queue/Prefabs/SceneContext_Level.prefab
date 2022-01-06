@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7447108929509314165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7447108929509314167}
+  - component: {fileID: 7447108929509314166}
+  - component: {fileID: 7447108929509314160}
+  m_Layer: 0
+  m_Name: SceneContext_Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7447108929509314167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447108929509314165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7447108929509314166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447108929509314165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 7447108929509314160}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!114 &7447108929509314160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447108929509314165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47ed32890bedb145a8c68199525038a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelStateService: {fileID: 8790311259198207633, guid: 4efa4894ac95bf447a53187b178cc69b, type: 3}
+  LevelUIService: {fileID: 6707494070355840869, guid: f7d63d9c05933d24fbf194e0fd176666, type: 3}
+  AnimatorControllersService: {fileID: 3340670682420832581, guid: ee15753b4c1e12e4d9b0651ad4b27db5, type: 3}
+  QueueService: {fileID: 6199478099635918479, guid: 08327b23fc961d04989001533c28ce21, type: 3}
+  ConsumerSpawnService: {fileID: 1226369063732909984, guid: 5601170354f992e4ca391dac7a711937, type: 3}
+  PlayerService: {fileID: 8388786967793215014, guid: f72d636c10b43bb41af1a474d5b42087, type: 3}
+  EnvironmentService: {fileID: 3261721522402320063, guid: d149aaf9fc343f548b83cb461faeba93, type: 3}
